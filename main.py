@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from gevent.monkey import patch_socket, patch_ssl; patch_socket(); patch_ssl()
 from aiohttp import ClientSession
 from datetime import datetime

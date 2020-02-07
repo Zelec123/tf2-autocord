@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from asyncio import TimeoutError, sleep
 from datetime import datetime
 from os import getcwd
